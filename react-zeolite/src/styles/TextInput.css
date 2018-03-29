@@ -1,0 +1,26 @@
+.container {
+  padding: 9px 10px 10px 10px;
+  border: 1px solid #B0AECA;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.25);
+  outline: none;
+}
+
+.container.focused {
+  padding: 7px 8px 8px 8px;
+  border: 3px solid #2990F1;
+}
+
+.container.invalid {
+  padding: 7px 8px 8px 8px;
+  border: 3px solid #EB3661;
+}
+
+.container.disabled {
+  color: #84829C;
+  opacity: 0.5;
+}
+
+.container::placeholder {
+  color: #84829C;
+}

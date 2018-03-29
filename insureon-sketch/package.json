@@ -1,0 +1,41 @@
+{
+  "name": "insureon-sketch",
+  "version": "0.1.0",
+  "description": "",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "insureon-sketch",
+    "manifest": "src/manifest.json",
+    "main": "insureon-sketch.sketchplugin"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "start": "skpm-build --watch --run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Austin <mike.austin@insureon.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "skpm-builder": "^0.1.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "chroma-js": "^1.2.2",
+    "react": "^16.0.0",
+    "react-sketchapp": "^1.0.0-beta.5",
+    "react-test-renderer": "^16.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
+  }
+}

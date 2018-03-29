@@ -1,0 +1,164 @@
+.container {
+  max-width: 1280px;
+  margin: auto;
+  background: hsl(0, 0%, 95%);
+  width: 100%;
+}
+
+.main {
+  padding: 0 20px;
+  flex: 1;
+}
+
+@media (max-width: 660px) {
+  .main {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 660px) {
+  .contentInset {
+    padding: 0 10px;
+  }
+}
+
+/*
+** Padding
+*/
+
+.paddingSmall {
+  padding: 10px;
+}
+
+.paddingTopSmall {
+  padding-top: 10px;
+}
+
+.paddingTopBottomSmall {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.paddingMedium {
+  padding: 20px;
+}
+
+.paddingLarge {
+  padding: 40px;
+}
+
+.paddingExtraSmall {
+  padding: 5px;
+}
+
+/*
+** Spacing
+*/
+
+.spacingLarge {
+  width: 40px; height: 40px;
+}
+
+.spacingMedium {
+  width: 20px; height: 20px;
+}
+
+.spacingSmall {
+  width: 10px; height: 10px;
+}
+
+.spacingExtraSmall {
+  width: 5px; height: 5px;
+}
+
+/*
+** Font Size
+*/
+
+.fontDefault {
+  font: 15px/1.25em 'Open Sans';
+  color: #2B2A3A;
+}
+
+.fontSizeDefault {
+  font-size: 15px;
+  margin: -4px 0;
+}
+
+.fontSizeExtraSmall {
+  font-size: 13px;
+  margin: -4px 0;
+}
+
+.fontSizeMedium {
+  font-size: 20px;
+  margin: -7px 0;
+}
+
+.fontSizeLarge {
+  font-size: 25px;
+  margin: -9px 0;
+}
+
+.fontSizeExtraLarge {
+  font-size: 30px;
+  margin: -9px 0;
+}
+
+/*
+** Font Weight
+*/
+
+.fontWeightBold {
+  font-weight: 600;
+}
+
+
+.fontStyleItalic {
+  font-style: italic;
+}
+
+/*
+** Colors
+*/
+
+.primaryLightTextColor {
+  color: #D9D8E9;
+}
+
+.primaryDarkBackgroundColor {
+  background-color: #2B2A3A;
+}
+
+.primaryBlueBackgroundColor {
+  background-color: #1C93F1;
+  color: white;
+}
+
+.primaryGreenBackgroundColor {
+  background-color: #00D157;
+  color: white;
+}
+
+.primaryBlue400BackgroundColor {
+  background-color: #60B4F5;
+  color: white;
+}
+
+/*.item {
+  min-width: 300px;
+  width: 33.3333333%;
+}
+
+@media (max-width: 980px) {
+  .item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 660px) {
+  .item {
+    width: 100%;
+  }
+}
+*/

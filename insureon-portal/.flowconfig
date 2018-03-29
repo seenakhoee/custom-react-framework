@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/immutable/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^xreact-native$' -> '../../../react-zeolite/src/components/'
+module.name_mapper='^react-native$' -> '<PROJECT_ROOT>/../react-zeolite/src/components/index.js'
+module.name_mapper='^xreact-insureon$' -> '<PROJECT_ROOT>/../react-insureon/src/components/'
+module.file_ext=.js
+module.file_ext=.css

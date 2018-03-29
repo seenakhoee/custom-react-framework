@@ -1,0 +1,15 @@
+.container {
+  min-width: 300px;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.paddingSmall {
+  padding: 10px;
+}
+
+.item:nth-child(odd) {
+  background-color: hsl(0, 0%, 95%);
+}

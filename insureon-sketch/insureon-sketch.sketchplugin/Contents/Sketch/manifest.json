@@ -1,0 +1,24 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "my-command-identifier",
+      "script": "my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "insureon-sketch",
+    "items": [
+      "my-command-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "insureon-sketch",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Mike Austin",
+  "email": "mike.austin@insureon.com"
+}

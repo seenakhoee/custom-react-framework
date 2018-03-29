@@ -1,0 +1,29 @@
+{
+  "name": "simple-react-project",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base public --host 0.0.0.0 --port 3000 --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-styleguidist": "^6.0.32",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  }
+}
